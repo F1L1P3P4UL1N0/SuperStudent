@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TelaDeLoginComponent } from './tela-de-login/tela-de-login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TelaDeLoginComponent
   ],
   imports: [
     BrowserModule,
